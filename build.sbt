@@ -5,7 +5,7 @@ lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
       organization := "doogie.scala",
-      scalaVersion := "2.12.4"
+      scalaVersion := "2.12.5"
     )),
     name := "fpinscala",
     libraryDependencies += "org.typelevel" %% "cats" % "0.9.0",
